@@ -1,0 +1,11 @@
+ 
+.display {
+  grid-column: span 4; /* Quantas colunas quero que ocupe (espços horizontais*/
+  background-color: #0004;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  font-size: 2.1em;
+  overflow: hidden;
+}

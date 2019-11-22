@@ -1,0 +1,40 @@
+:root {
+  --bg-button: #f0f0f0;
+  --border-button: solid 1px #888;
+
+}
+
+.button {
+  font-size: 1.4em;
+  background-color: var(--bg-button);
+  border: none;
+  border-right: var(--border-button);
+  border-bottom: var(--border-button);
+  outline: none;
+}
+
+/* Quando vocÊ clicar no botâo, ele vai ficar escuro */
+.button:active {
+  background-color: #ccc;
+}
+
+/* Especificar para ocupar 2 espços quando tiver a classe double */
+.button.double {
+  grid-column: span 2;
+}
+
+/* Ocupar 3 espaços */
+.button.triple {
+  grid-column: span 3;
+}
+
+/* Quando o botão for uma operação, ter um diferencial */
+.button.operation {
+  background-color: #fa8231;
+  color: #FFF;
+}
+
+/* Quando for um botão de operaççao e estiver atibo */
+.button.operation:active {
+  background-color: #fa8231cc;
+}
